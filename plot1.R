@@ -1,7 +1,7 @@
-# project:   EDA Project assignment wk 1
-# author:    Peter van Gastel
-# sciptname: Plot 1
-# date:      2014-12-04
+# project:    EDA Project assignment wk 1
+# author:     Peter van Gastel
+# scriptname: plot1.R
+# date:       2014-12-04
 #
 # overall goal is to examine how household energy usage varies over a 2-day period in February, 2007.
 #
@@ -19,7 +19,7 @@ EPCData[,2] <- as.POSIXct(paste(EPCData[,1], EPCData[,2]), format="%Y-%m-%d %H:%
 # open outputfile for png format
 png(filename ="plot1.png", width = 480, height=480)
 
-# make hist with correct title, labels and color 
+# create hist with correct title, labels and color 
 hist(EPCData$Global_active_power, main = "Global Active Power", col="red", xlab = "Global Active Power (kilowatts)", ylab = "Frequency")
 
 # close file

@@ -1,7 +1,7 @@
-# project:   EDA Project assignment wk 1
-# author:    Peter van Gastel
-# sciptname: Plot 2
-# date:      2014-12-04
+# project:    EDA Project assignment wk 1
+# author:     Peter van Gastel
+# scriptname: plot2.R
+# date:       2014-12-04
 #
 # overall goal is to examine how household energy usage varies over a 2-day period in February, 2007.
 #
